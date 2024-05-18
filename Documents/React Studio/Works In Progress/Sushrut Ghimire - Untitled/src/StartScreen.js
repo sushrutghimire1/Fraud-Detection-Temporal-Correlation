@@ -43,7 +43,7 @@ export default class StartScreen extends Component {
      };
     const style_elBackground_outer = {
       boxSizing: 'border-box',
-      backgroundColor: '#f6f6f6',
+      backgroundColor: '#fae7f1',
      };
     
     return (

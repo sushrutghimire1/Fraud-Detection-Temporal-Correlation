@@ -4,7 +4,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgba(0, 0, 0, 0.8500);
-  background-color: #f6f6f6;
+  background-color: #fae7f1;
 }
 
 .App .baseFont * { /* Base font style override for UI framework components */
@@ -13,11 +13,11 @@
 }
 
 .App .appBg {
-  background-color: #f6f6f6;
+  background-color: #fae7f1;
 }
 
 .App .cardBg {
-  background-color: white;
+  background-color: #ffddee;
 }
 
 .App .baseTextBg { /* Base text color as background */
@@ -33,19 +33,19 @@
 }
 
 .App .primaryTextColor {
-  color: #70c7f1;
+  color: #ebe9ed;
 }
 
 .App .primaryBg {
-  background-color: #70c7f1;
+  background-color: #ebe9ed;
 }
 
 .App .highlightTextColor {
-  color: #0093d5;
+  color: #3d8ad6;
 }
 
 .App .highlightBg {
-  background-color: #0093d5;
+  background-color: #3d8ad6;
 }
 
 @media (display-mode: standalone) {
@@ -62,16 +62,16 @@
     margin-bottom: 0;
 }
 .mui-btn--primary {
-    background-color: #70c7f1;
+    background-color: #ebe9ed;
 }
 .mui-btn--primary:active, .mui-btn--primary:focus, .mui-btn--primary:hover {
-    background-color: #7cccf3;
+    background-color: #edebef;
 }
 .mui-btn--accent {
-    background-color: #0093d5;
+    background-color: #3d8ad6;
 }
 .mui-btn--accent:active, .mui-btn--accent:focus, .mui-btn--accent:hover {
-    background-color: #069fda;
+    background-color: #4e98da;
 }
 .mui-textfield {  /* Reset UI framework styling that affects layout */
     margin-bottom: 0;
@@ -166,7 +166,7 @@
   font-size: 20.0px;
 }
 .App .navBar {
-  background-color: #70c7f1;
+  background-color: #ebe9ed;
   color: black;
   position: fixed;
   left: 0;
@@ -512,4 +512,14 @@
   }
   
 }
+
+/* This component has a fixed-size layout */
+  .Drawer1 {
+    min-height: 114px;  /* This component has a fixed size */
+    overflow: hidden;
+    width: 182px; /* This component has a fixed size */
+  }
+  .Drawer1 > .background > .containerMinHeight {
+    min-height: 114px;
+  }
 
